@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>fp_18.jpg</filename>
+	<path>D:\work\tensorflow\master-models\research\object_detection\models\model\fingerprints\images\fp_18.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>176</width>
+		<height>324</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>16</xmin>
+			<ymin>39</ymin>
+			<xmax>162</xmax>
+			<ymax>318</ymax>
+		</bndbox>
+	</object>
+</annotation>
