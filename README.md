@@ -10,6 +10,7 @@ I test this in Windows 10 with Ubuntu linux subsystem for windows To run shell s
 1. Install anaconda,. Cuda,. Tensorflow
 
 [Install Object detection](https://www.youtube.com/watch?v=Rgpfk6eYxJA)
+<br>
 [Install Object detection Github](https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10#2-set-up-tensorflow-directory-and-anaconda-virtual-environment)
 
 ```
@@ -44,13 +45,14 @@ cd D:\work\tensorflow\master-models\research\object_detection
 ```
 
 ### Test
-
+```
 python
 import tensorflow as tf
 sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
 
 cd D:\work\tensorflow\master-models\research\object_detection
 python builders\model_builder_test.py
+```
 
 2. Download tensorflow model revision 
 [Github revision](https://github.com/tensorflow/models/tree/34beb7adfcd2f394e09acfecf05fdc0bdb8143c5)
